@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top,  #8a05beb2 , #0000004b );
+   
+
+}
+
+section#login {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+
+
+}
+
+input#email {
+    text-indent: 20px;
+    color: white;
+    font: 20px arial;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to top,  #8a05be38, #00000021 );
+    border: none;
+    padding: 0%;
+    outline: none;
+    transition: 0.5s;
+    
+
+}
+input#email:hover{
+    
+    border-bottom: 1px solid white;
+    font: 16pt arial;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+input#senha {
+    text-indent: 20px;
+    color:  white;
+    font: 20px arial;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: linear-gradient(to top,  #8a05be38, #00000021 );
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.5s;
+    
+}
+input#senha:hover{
+    border-bottom: 1px solid white;
+   
+    font: 16pt arial;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+
+::-webkit-input-placeholder {
+    color:white;
+    font: 16pt arial;
+    text-align: center;
+    padding-right: 20px;
+
+}
+
+
+img{
+    align-items: top;
+    margin-bottom: 80px;
+}
+button{
+   
+   background: linear-gradient(to top,  #8a05beb2, #0000004b );
+   border: none;
+   border-radius: 5px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 60px;
+   padding-right: 60px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: rgba(255, 255, 255, 0.644);
+   font: 16pt arial;
+   transition: 0.5s;
+   
+}
+button:hover{
+    transition: 0.5s;
+    font: 18pt arial;
+    background: linear-gradient(to top,  #8a05beb2, #0000004b );
+    color: white;
+    cursor: pointer;  
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.185);  
+}
+a{
+    font: 15pt arial;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+
+}
+a:hover{
+    font:18px arial;
+    color: rgba(255, 255, 255, 0.644) ;
+    transition: 0.5s;
+    cursor: pointer;
+}   
+    
